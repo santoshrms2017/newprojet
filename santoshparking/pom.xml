@@ -109,7 +109,7 @@
 							<fileSets>
 								<fileSet>
 									<!-- Report directory Path -->
-									<directory>D://project//santoshparking//test-output</directory>
+									<directory>C://Users//Home//git//newprojet//santoshparking//test-output</directory>
 									<includes>
 										<!-- Report file name -->
 										<include>emailable-report.html</include>
@@ -120,10 +120,10 @@
 								</fileSet>
 								<fileSet>
 									<!-- Report directory Path -->
-									<directory>D://project//santoshparking//src//main//java//santoshparking//screenshot</directory>
+									<directory>C://Users//Home//git//newprojet//santoshparking//src//main//java//santoshparking//screenshot</directory>
 									<includes>
 										<!-- Report file name -->
-										<include>test1.png</include>
+										<include>tests.png</include>
 										</includes>
 									<!-- Use Regular Expressions like **/*.html if you want all the 
 										html files to send -->

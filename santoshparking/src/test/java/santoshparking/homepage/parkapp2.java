@@ -44,9 +44,9 @@ public class parkapp2 {
 				
 			driver.findElement(By.xpath("//input[@name='q']")).sendKeys("dream initiative productions");
 		
-			driver.findElement(By.xpath("//input[@name='btnK']")).click();
+			//driver.findElement(By.xpath("//input[@name='btnK']")).click();
 			
-			String g="C://Users//Home//git//newprojet//santoshparking//src//main//java//santoshparking//screenshot//test1.png";
+			String g="C://Users//Home//git//newprojet//santoshparking//src//main//java//santoshparking//screenshot//tests.png";
 			
 			this.takeSnapShot(driver, g);
 			Thread.sleep(3000);

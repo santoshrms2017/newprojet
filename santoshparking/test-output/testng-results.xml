@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16494" started-at="2018-03-27T09:16:25Z" finished-at="2018-03-27T09:16:42Z">
+  <suite name="Default suite" duration-ms="16678" started-at="2018-03-27T09:41:06Z" finished-at="2018-03-27T09:41:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16494" started-at="2018-03-27T09:16:25Z" finished-at="2018-03-27T09:16:42Z">
+    <test name="Default test" duration-ms="16678" started-at="2018-03-27T09:41:06Z" finished-at="2018-03-27T09:41:23Z">
       <class name="santoshparking.homepage.parkapp2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:santoshparking.homepage.parkapp2@72d818d1]" name="setup" is-config="true" duration-ms="6118" started-at="2018-03-27T14:46:25Z" finished-at="2018-03-27T14:46:32Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:santoshparking.homepage.parkapp2@72d818d1]" name="setup" is-config="true" duration-ms="8463" started-at="2018-03-27T15:11:06Z" finished-at="2018-03-27T15:11:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test()[pri:0, instance:santoshparking.homepage.parkapp2@72d818d1]" name="test" duration-ms="5042" started-at="2018-03-27T14:46:32Z" finished-at="2018-03-27T14:46:37Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:santoshparking.homepage.parkapp2@72d818d1]" name="test" duration-ms="5136" started-at="2018-03-27T15:11:15Z" finished-at="2018-03-27T15:11:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:santoshparking.homepage.parkapp2@72d818d1]" name="exit" is-config="true" duration-ms="5314" started-at="2018-03-27T14:46:37Z" finished-at="2018-03-27T14:46:42Z">
+        <test-method status="PASS" signature="exit()[pri:0, instance:santoshparking.homepage.parkapp2@72d818d1]" name="exit" is-config="true" duration-ms="3056" started-at="2018-03-27T15:11:20Z" finished-at="2018-03-27T15:11:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
