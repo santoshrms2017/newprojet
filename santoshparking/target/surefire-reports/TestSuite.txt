@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.398 s <<< FAILURE! - in TestSuite
+setup(santoshparking.homepage.parkapp2)  Time elapsed: 0.306 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: D:\project\santoshparking\src\main\resources\drivers\chromedriver.exe
+	at santoshparking.homepage.parkapp2.setup(parkapp2.java:30)
+
