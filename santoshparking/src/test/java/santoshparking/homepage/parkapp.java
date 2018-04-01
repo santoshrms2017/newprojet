@@ -28,10 +28,7 @@ public class parkapp {
 	}
 	@Test
 	public static void test() {
-		
-		
-		
-		
+				
 		driver.findElement(By.xpath("//input[@name='q']")).sendKeys("test");;
 			
 		
@@ -39,6 +36,6 @@ public class parkapp {
 
 	@AfterTest
 	public static void exit(){
-		//driver.quit();
+		driver.quit();
 	}
 }

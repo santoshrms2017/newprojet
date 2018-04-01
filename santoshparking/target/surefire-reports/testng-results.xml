@@ -1,24 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14915" started-at="2018-03-27T09:54:33Z" finished-at="2018-03-27T09:54:47Z">
+  <suite name="Suite" duration-ms="41330" started-at="2018-03-28T05:39:44Z" finished-at="2018-03-28T05:40:25Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14915" started-at="2018-03-27T09:54:33Z" finished-at="2018-03-27T09:54:47Z">
-      <class name="santoshparking.homepage.parkapp2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:santoshparking.homepage.parkapp2@234bef66]" name="setup" is-config="true" duration-ms="6969" started-at="2018-03-27T15:24:33Z" finished-at="2018-03-27T15:24:39Z">
+    <test name="Test" duration-ms="41330" started-at="2018-03-28T05:39:44Z" finished-at="2018-03-28T05:40:25Z">
+      <class name="santoshparking.homepage.parkapp">
+        <test-method status="PASS" signature="setup()[pri:0, instance:santoshparking.homepage.parkapp@2096442d]" name="setup" is-config="true" duration-ms="5242" started-at="2018-03-28T11:09:44Z" finished-at="2018-03-28T11:09:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test()[pri:0, instance:santoshparking.homepage.parkapp2@234bef66]" name="test" duration-ms="4763" started-at="2018-03-27T15:24:39Z" finished-at="2018-03-27T15:24:44Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:santoshparking.homepage.parkapp2@9f70c54]" name="setup" is-config="true" duration-ms="8182" started-at="2018-03-28T11:09:49Z" finished-at="2018-03-28T11:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:santoshparking.homepage.parkapp3@234bef66]" name="setup" is-config="true" duration-ms="10688" started-at="2018-03-28T11:09:57Z" finished-at="2018-03-28T11:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:santoshparking.homepage.parkapp@2096442d]" name="test" duration-ms="141" started-at="2018-03-28T11:10:08Z" finished-at="2018-03-28T11:10:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:santoshparking.homepage.parkapp2@234bef66]" name="exit" is-config="true" duration-ms="3170" started-at="2018-03-27T15:24:44Z" finished-at="2018-03-27T15:24:47Z">
+        <test-method status="PASS" signature="exit()[pri:0, instance:santoshparking.homepage.parkapp@2096442d]" name="exit" is-config="true" duration-ms="1034" started-at="2018-03-28T11:10:16Z" finished-at="2018-03-28T11:10:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:santoshparking.homepage.parkapp2@9f70c54]" name="exit" is-config="true" duration-ms="3109" started-at="2018-03-28T11:10:17Z" finished-at="2018-03-28T11:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:santoshparking.homepage.parkapp3@234bef66]" name="exit" is-config="true" duration-ms="5302" started-at="2018-03-28T11:10:20Z" finished-at="2018-03-28T11:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- santoshparking.homepage.parkapp -->
+      <class name="santoshparking.homepage.parkapp3">
+        <test-method status="PASS" signature="test()[pri:0, instance:santoshparking.homepage.parkapp3@234bef66]" name="test" duration-ms="691" started-at="2018-03-28T11:10:13Z" finished-at="2018-03-28T11:10:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:santoshparking.homepage.parkapp3@234bef66]" name="test1" duration-ms="933" started-at="2018-03-28T11:10:14Z" finished-at="2018-03-28T11:10:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:santoshparking.homepage.parkapp3@234bef66]" name="test2" duration-ms="828" started-at="2018-03-28T11:10:15Z" finished-at="2018-03-28T11:10:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- santoshparking.homepage.parkapp3 -->
+      <class name="santoshparking.homepage.parkapp2">
+        <test-method status="PASS" signature="test()[pri:0, instance:santoshparking.homepage.parkapp2@9f70c54]" name="test" duration-ms="5158" started-at="2018-03-28T11:10:08Z" finished-at="2018-03-28T11:10:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
       </class> <!-- santoshparking.homepage.parkapp2 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
