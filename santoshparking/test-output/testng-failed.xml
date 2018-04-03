@@ -1,34 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="santodhparki.screencaptureforie">
-        <methods>
-          <include name="test"/>
-          <include name="test2"/>
-          <include name="exit"/>
-          <include name="test1"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- santodhparki.screencaptureforie -->
       <class name="santodhparki.screencaptureforchrome">
         <methods>
           <include name="setup"/>
           <include name="test1"/>
-          <include name="test2"/>
           <include name="exit"/>
-          <include name="test"/>
         </methods>
       </class> <!-- santodhparki.screencaptureforchrome -->
-      <class name="santodhparki.screencaptureforfirefox">
-        <methods>
-          <include name="test"/>
-          <include name="exit"/>
-          <include name="test2"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- santodhparki.screencaptureforfirefox -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

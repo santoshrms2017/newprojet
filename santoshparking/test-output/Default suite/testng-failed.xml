@@ -3,14 +3,13 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="santoshparking.homepage.screencaptureforfirefox">
+      <class name="santodhparki.screencaptureforchrome">
         <methods>
           <include name="setup"/>
-          <include name="test2"/>
+          <include name="test1"/>
           <include name="exit"/>
-          <include name="test"/>
         </methods>
-      </class> <!-- santoshparking.homepage.screencaptureforfirefox -->
+      </class> <!-- santodhparki.screencaptureforchrome -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

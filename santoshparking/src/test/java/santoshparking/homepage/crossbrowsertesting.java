@@ -1,5 +1,6 @@
 package santoshparking.homepage;
 
+
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
@@ -56,13 +57,13 @@ public class crossbrowsertesting {
 	@Test
 	public void test() throws Exception{
 
-		driver.findElement(By.xpath("//input[@name='q']")).sendKeys("dream initiative productions");
-		//driver.findElement(By.xpath("//input[@name='btnK']")).click();
-		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		
-		// Code to copy the screenshot in the desired location
-		FileUtils.copyFile(scrFile, new File("C://Users//Home//git//newprojet//santoshparking//src//main//java//santoshparking//screenshot//googles.jpg"));
-		
+driver.findElement(By.xpath("//input[@name='q']")).sendKeys("dream initiative productions");
+ driver.findElement(By.xpath("//input[@name='btnK']")).click();
+//		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+//		
+//		// Code to copy the screenshot in the desired location
+//		FileUtils.copyFile(scrFile, new File("C://Users//Home//git//newprojet//santoshparking//src//main//java//santoshparking//screenshot//googles.jpg"));
+//		
 
 			
 			
